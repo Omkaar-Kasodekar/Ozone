@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("logo.png");
+    background-size: cover;
+    height:50px;
+    width:100%;
+    border-radius:5px ;
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid rgb(244, 245, 251);
+    background-color: black;
+}
+.navsear{
+    display:flex;
+    background-color: brown;
+    width:600px;
+    height:25px;
+    border-radius:5px;
+   justify-content:space-evenly;
+}
+.navsear:hover{
+    border:2px solid rgb(115, 211, 115);
+}
+
+.sear-select{
+    border:none;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    width:60px;
+    background-color:rgb(207, 203, 203);
+}
+
+.searinp{
+    width:100%;
+    font-size:15px;
+    border:none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+
+}
+.nav-sec{
+    font-size:1.2rem;
+    
+
+}.botpan{
+    height:50px;
+    background-color:  rgb(5, 107, 99);
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+    font-weight: 500;
+
+}
+
+.pan-ops p{
+    display: inline;
+    margin:0.5px;
+   
+}.pan-ops{
+    width:75%;
+    font-size: 1.2rem;
+    font-weight: 250;
+}
+.pan-rev{
+    font-size:1.25rem;
+    font-weight: 500;
+
+}.main{
+    background-image: url("hero_image1.jpg");
+    height:500px;
+}
+
+.shop{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgb(135, 135, 129);
+   
+}
+.box{
+    height:150px;
+    margin-top: 20px;
+    border:3px solid black;
+    width:45%;
+    height:350px;
+    background-color: white;
+    padding: 20px 10px 25px;
+    
+}.box-img{
+    height:270px;
+    background-size:cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-cont{
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+.box-cont p{
+    color:#007185;
+}
+.BotCont{
+    background-color:  rgb(5, 107, 99);;
+    padding: 40px 10px 10px;
+    text-align: center;
+
+}
+.copyright{
+    color:#ffffff;
+    font-size:1.2rem;
+    padding:20px 0;
+  }
+  a{
+    color:#11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:#7C9D96;
+}
+

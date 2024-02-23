@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is a new Site">
+        <title>Ozone</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="chat.css">
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+         <div class="navbar">
+            <div class="botpan">
+                <div class="pan-ops">
+                    <p class="border">Special |</p>
+                    <p class="border">Discounts |</p>
+                    <p class="border">Gift |</p>
+                    <p class="border">Live Sale</p>
+                </div>
+                <div class="pan-rev border">
+                    Rate Us
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+
+        </div>
+
+        <div class="shop">
+            <div class="box"> 
+                <div class="box-cont">
+                    <h2>Electronic Items</h2>
+                <div class="box-img" style="background-image: url('electronics.jpg');"></div>
+                <a href="elect.html"><h3>View</h3></a>
+                </div>
+             </div>
+            <div class="box"> 
+                <div class="box-cont">
+                    <h2>Books</h2>
+                <div class="box-img" style="background-image: url('books.jpg');"></div>
+                 <a href="book.html"><h3>View</h3></a>
+                </div> 
+            </div>
+        </div>
+
+        
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">Order here!</button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+        <div class="BotCont">
+            <a class="Footer-Link"  href="https://www.instagram.com/"><img src="instagram-icon.png" alt=""></a>
+            <a class="Footer-Link"  href="https://www.facebook.com/"><img src="facebook-icon.png" alt=""></a>
+            <p class="copyright">Copyright. 2024 Ozone</p>
+        </div>
+        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="responses.js"></script>
+        <script src="chat.js"></script>
+    </html>

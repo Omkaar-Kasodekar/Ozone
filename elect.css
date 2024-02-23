@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #05344e;
+    color: #5e3434;
+  }
+  h3 {
+    font-size: 26px;
+    margin-top: 10px;
+    color:gold
+  }
+
+  header {
+    align-self: top;
+    background-color: #83e2f1;
+    color: #060101;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .product {
+    background-color: #83e2f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(225, 212, 212, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(226, 237, 9, 0.874);
+  }
+
+  .product img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+  }
+
+  .product h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .product p {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #8d8e92;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .search-input {
+    border: rgb(96, 13, 67);
+    
+    padding: 5px;
+    width: 200px;
+    text-decoration-color: #333;
+  }
+
+  .search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    align-self: last baseline;
+  }
+
+  .slideshow-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
+  .BotCont{
+    background-color:  rgb(5, 107, 99);;
+    padding: 40px 10px 10px;
+    text-align: center;
+    color: #000;
+}
+
+.Footer-Link{
+  margin: 0 10px;
+}
