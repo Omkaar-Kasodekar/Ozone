@@ -3,13 +3,13 @@ function getBotResponse(input) {
         return "Kindly place your order.";
     }   
     else if (input == "laptop" || input == "monitor" || input == "storage device" || input == "printer" || input == "musical instrument" || input == "sound bars" || input == "I-Pad" || input == "watch" || input == "smartphone" || input == "headphone" || input == "security camera" || input == "router") {
-        return "Added to Kart.";
+        return "Added to Cart.";
     }   
     else if(input == "book") {
         return "Enter book number.";
     }
     else if (input == "1"|| input == "2"|| input == "3"|| input == "4"|| input == "5"|| input == "6"|| input == "7"|| input == "8"|| input == "9"|| input == "10"|| input == "11"|| input == "12"|| input == "13"|| input == "14"|| input == "15") {
-        return "Added to Kart.";
+        return "Added to Cart.";
     }
     else if (input == "done") {
         return "Would you like to modify your order?";
@@ -19,6 +19,9 @@ function getBotResponse(input) {
     }
     else if (input == "no") {
         return "Order successfully placed. Thank you!";
+    }
+    else if (input == "hello" || input == "Hello") {
+        return "Hello there!"
     }
     else {
         return "Invalid input!";
